@@ -1,0 +1,78 @@
+[
+    {
+        "id": 0,
+        "title": "Model S",
+        "route":"models",
+        "description": "Order Online for Touchless Delivery",
+        "image": "model-s.jpg",
+        "range": "390",
+        "time": "1.99",
+        "topSpeed": "200",
+        "peakPower": "1,020"
+    },
+    {
+        "id": 1,
+        "title": "Model 3",
+        "route":"model3",
+        "description": "Order Online for Touchless Delivery",
+        "image": "model-3.jpg",
+        "range": "400",
+        "time": "2.99",
+        "topSpeed": "180",
+        "peakPower": "900"
+    },
+    {
+        "id": 2,
+        "title": "Model X",
+        "route":"modelx",
+        "description": "Order Online for Touchless Delivery",
+        "image": "model-x.jpg",
+        "range": "350",
+        "time": "1.55",
+        "topSpeed": "150",
+        "peakPower": "1,130"
+    },
+    {
+        "id": 3,
+        "title": "Model Y",
+        "route":"modely",
+        "description": "Order Online for Touchless Delivery",
+        "image": "model-y.jpg",
+        "range": "410",
+        "time": "2.05",
+        "topSpeed": "190",
+        "peakPower": "1,040"
+    },
+    {
+        "id": 4,
+        "title": "Solar Roof",
+        "route":"solarroof",
+        "description": "Transform your roof and produce clean energy",
+        "image": "solar-roof.jpg",
+        "range": "350",
+        "time": "1.55",
+        "topSpeed": "150",
+        "peakPower": "1,130"
+    },
+    {
+        "id": 5,
+        "title": "Solar Panel",
+        "route":"solarpanel",
+        "description": "Lowest Cost Solar Panels in America",
+        "image": "solar-panel.jpg",
+        "range": "410",
+        "time": "2.05",
+        "topSpeed": "190",
+        "peakPower": "1,040"
+    },
+    {
+        "id": 6,
+        "title": "Accessories",
+        "description": "",
+        "image": "accessories.jpg",
+        "range": "",
+        "time": "",
+        "topSpeed": "",
+        "peakPower": ""
+    }
+]
