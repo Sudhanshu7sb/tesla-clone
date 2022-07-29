@@ -8,7 +8,7 @@ function Details({ car }) {
         <Header />
         {car.map(singleCarInfo => (
 
-            <section className=" w-[100%] h-[100vh]  bg-cover bg-center bg-no-repeat flex flex-col justify-between items-center" style={{ backgroundImage: `url(images/${singleCarInfo.image})` }} >
+            <section key={singleCarInfo.id} className=" w-[100%] h-[100vh]  bg-cover bg-center bg-no-repeat flex flex-col justify-between items-center" style={{ backgroundImage: `url(/assets/images/${singleCarInfo.image})` }} >
                 <Fade bottom cascade>
                     <div className="text-center pt-[20vh]">
                         <h2 className="text-2xl font-semibold">{singleCarInfo.title}</h2>

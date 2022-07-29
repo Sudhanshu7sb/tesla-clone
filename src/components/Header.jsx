@@ -12,7 +12,7 @@ console.log(data,"data")
             <Link to="/"><img src="/assets/tesla.svg" alt="logo" className="cursor-pointer"/></Link>
         </div>
         <nav className="w-[50%] grow flex justify-end ">
-            <ul className="hidden lg:block w-[90%] lg:flex justify-center items-center space-x-6">
+            <ul className="hidden w-[90%] lg:flex justify-center items-center space-x-6">
             {data.map((car,index) => car.title != "Accessories"  ? <NavLink 
              to={`/${car.route}`} key={car.id} className={`border-0 hover:border-b-[1px] hover:border-black ${({ isActive }) =>
               isActive ? 'text-white border-b-white' : ""
@@ -28,7 +28,7 @@ console.log(data,"data")
             <span  className="mr-3 hover:bg-gray-200 p-2 rounded-full" onClick={() => setShowMenu(true)}>Menu</span>
         </nav>
 
-        <nav className={showMenu ? "fixed block top-0 right-0 bottom-0 bg-white w-[40%] md:w-[25%] z-40 flex flex-col items-start justify-start space-y-4 p-4" : `fixed hidden top-0 right-0 bottom-0 bg-white w-[40%] z-40 flex flex-col items-start justify-start space-y-4 p-4`}>
+        <nav className={showMenu ? "fixed  top-0 right-0 bottom-0 bg-white w-[40%] md:w-[25%] z-40 flex flex-col items-start justify-start space-y-4 p-4" : `fixed hidden top-0 right-0 bottom-0 bg-white w-[40%] z-40  flex-col items-start justify-start space-y-4 p-4`}>
             <button className="self-end w-12 h-12 hover:bg-gray-200 p-2 hover:rounded-full" onClick={() => setShowMenu(false)}>X</button>
             {data.map(car => car.title != "Accessories" ? <NavLink to={`/${car.route}`} key={car.id} className="w-[80%] p-2 rounded-full hover:bg-gray-200"> {car.title}</NavLink>:"")}
             <Outlet />

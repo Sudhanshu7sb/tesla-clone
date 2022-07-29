@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 function Hero({singleCarInfo,index}) {
     // console.log(index,"index")
-    return <section className=" w-[100%] h-[100vh]  bg-cover bg-center bg-no-repeat flex flex-col justify-between items-center" style={{backgroundImage:`url(images/${singleCarInfo.image})`}} >
+    return <section className=" w-[100%] h-[100vh]  bg-cover bg-center bg-no-repeat flex flex-col justify-between items-center" style={{backgroundImage:`url(/assets/images/${singleCarInfo.image})`}} >
     <Fade bottom cascade>
         <div className="text-center pt-[20vh]">
             <h2 className="text-5xl font-semibold">{singleCarInfo.title}</h2>
@@ -21,7 +21,7 @@ function Hero({singleCarInfo,index}) {
             
         </div>
             </Fade>
-        {index == 0 ? <img src="/images/down-arrow.svg" alt="down-arrow" className="w-6 h-8 animate-bounce "/> : ""}
+        {index == 0 ? <img src="/assets/images/down-arrow.svg" alt="down-arrow" className="w-6 h-8 animate-bounce "/> : ""}
         
         </div>
     </section>
