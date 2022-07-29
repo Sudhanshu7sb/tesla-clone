@@ -9,7 +9,7 @@ console.log(data,"data")
     const [showMenu, setShowMenu] = useState(false);
     return <header className="fixed z-10 my-4 w-[100%] flex justify-evenly items-center space-x-4 p-4 ">
         <div className="w-[30%] sm:w-[20%] lg:w-[10%] ml-3">
-            <Link to="/"><img src="/assets/tesla.svg" alt="logo" className="cursor-pointer"/></Link>
+            <Link to="/"><img src="assets/tesla.svg" alt="logo" className="cursor-pointer"/></Link>
         </div>
         <nav className="w-[50%] grow flex justify-end ">
             <ul className="hidden w-[90%] lg:flex justify-center items-center space-x-6">
